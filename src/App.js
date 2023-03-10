@@ -37,7 +37,7 @@ export default function App() {
       <Portfolio />
       <Contact />
       <BackToTop />
-      <Preloader />
+      {/* <Preloader /> */}
     </React.Fragment>
   );
 }
