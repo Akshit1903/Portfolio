@@ -12,6 +12,8 @@ import navigation from "../img/dailyjournal/navigation.gif";
 import places from "../img/great-places/places.gif";
 import mailchimp from "../img/newsletter/mailchimp.png";
 import newsletter_proc from "../img/newsletter/newsletter_proc.gif";
+import keeper_demo1 from "../img/keeper/keeper_demo1.gif";
+import keeper_demo2 from "../img/keeper/keeper_demo2.gif";
 
 class Portfolio extends React.Component {
   render() {
@@ -28,6 +30,69 @@ class Portfolio extends React.Component {
             </div>
           </div>
           <div className="row justify-content-center">
+            <div className="col-md-4">
+              <div className="work-box" data-aos="zoom-in-up">
+                <a href={keeper_demo1} data-lightbox="gallery-keeper">
+                  <div className="work-img">
+                    <img src={keeper_demo1} alt="" className="img-fluid" />
+                    <img src={keeper_demo2} alt="" className="img-fluid" />
+
+                    <p className="project-desc">
+                      <ul>
+                        <li>
+                          A web app clone to Google Keep which allows users to
+                          create and delete notes.
+                        </li>
+                        <li>
+                          The application features a clean and intuitive user
+                          interface, similar to the original app, with a
+                          minimalistic design and easy-to-use functionality.
+                        </li>
+                      </ul>
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                </a>
+                <a
+                  href={keeper_demo2}
+                  data-lightbox="gallery-keeper"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <div className="work-content">
+                  <div className="row">
+                    <div className="col-sm-8">
+                      <h2 className="w-title">Keeper- Google Keep Clone</h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">
+                          React HTML CSS JavaScript
+                        </span>
+                      </div>
+                      <a
+                        href="https://akshit1903.github.io/keeper/"
+                        className="btn btn-outline-primary btn-sm m-1"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Live
+                      </a>
+                      <a
+                        href="https://github.com/Akshit1903/keeper"
+                        className="btn btn-outline-primary btn-sm m-1"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Source
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="col-md-4">
               <div className="work-box" data-aos="zoom-in-up">
                 <a href={easymi_tutorial} data-lightbox="gallery-easymi">
