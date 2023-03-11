@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f3c7b999.css",
-    "main.js": "/Portfolio/static/js/main.1d7f14ef.js",
+    "main.css": "/Portfolio/static/css/main.e5bb0067.css",
+    "main.js": "/Portfolio/static/js/main.e2d267e0.js",
     "static/media/tutorial2.gif": "/Portfolio/static/media/tutorial2.95c6238fc807a1cbab01.gif",
     "static/media/places.gif": "/Portfolio/static/media/places.b04bebf25bce5b1075e8.gif",
-    "static/media/image1.jpg": "/Portfolio/static/media/image1.e5cc538181c31600f0ed.jpg",
     "static/media/add_tag_demo.gif": "/Portfolio/static/media/add_tag_demo.2e9bb09a7372f87be1a9.gif",
     "static/media/earth.jpg": "/Portfolio/static/media/earth.a08c82a61f5bf923991e.jpg",
     "static/media/about.png": "/Portfolio/static/media/about.8979e00f809f27898333.png",
@@ -25,14 +24,13 @@
     "static/media/newsletter_proc.gif": "/Portfolio/static/media/newsletter_proc.cb2bf2019a74bf88ea55.gif",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/ionicons.woff?v=2.0.0": "/Portfolio/static/media/ionicons.0b4ad6170d93c4aa91ee.woff",
-    "static/media/myImage.png": "/Portfolio/static/media/myImage.d37bb1c946c59794414c.png",
     "static/media/logo1.png": "/Portfolio/static/media/logo1.ec2b0fbe06f296ae454c.png",
     "index.html": "/Portfolio/index.html",
-    "main.f3c7b999.css.map": "/Portfolio/static/css/main.f3c7b999.css.map",
-    "main.1d7f14ef.js.map": "/Portfolio/static/js/main.1d7f14ef.js.map"
+    "main.e5bb0067.css.map": "/Portfolio/static/css/main.e5bb0067.css.map",
+    "main.e2d267e0.js.map": "/Portfolio/static/js/main.e2d267e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3c7b999.css",
-    "static/js/main.1d7f14ef.js"
+    "static/css/main.e5bb0067.css",
+    "static/js/main.e2d267e0.js"
   ]
 }
