@@ -238,15 +238,16 @@ class About extends React.Component {
                         </div>
                         {/* Sun */}
                         <div className="skills-top-circle panel">
-                          <img
+                          {/* <img
                             src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif"
                             width={20}
                             height={20}
-                          />
+                          /> */}
                         </div>
                       </div>
                     </div>
                     <br />
+                    <spacer />
                     <a href="https://leetcode.com/akshit19/">
                       <img
                         id="leetcode-stats"
@@ -254,6 +255,7 @@ class About extends React.Component {
                         alt="Akshit's Leetcode Profile"
                       />
                     </a>
+                    <spacer />
                   </div>
                   <div className="col-md-6">
                     <div className="about-me pt-4 pt-md-0">
