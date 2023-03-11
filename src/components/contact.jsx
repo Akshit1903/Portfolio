@@ -5,6 +5,7 @@ class Contact extends React.Component {
   render() {
     return (
       <section
+        id="contact"
         className="paralax-mf footer-paralax bg-image sect-mt4 route"
         style={{ backgroundImage: "url(" + imageOverlay + ")" }}
       >

@@ -863,67 +863,53 @@ INTRO
   transform: rotate(120deg);
 }
 
-.skill-orbit:nth-child(4) .skill-planet:nth-child(1) {
-  -webkit-animation: travelOrbit 6s infinite linear;
-  animation: travelOrbit 6s infinite linear;
+.skill-orbit:nth-child(4) .skill-planet {
+  -webkit-animation: travelOrbit 24s infinite linear;
+  animation: travelOrbit 24s infinite linear;
   -webkit-transform-origin: 50% 363%;
   transform-origin: 50% 363%;
 }
-.skill-orbit:nth-child(4) span:nth-child(1) {
-  -webkit-animation: unrotate 6s infinite linear;
-  animation: unrotate 6s infinite linear;
+.skill-orbit:nth-child(4) span {
+  -webkit-animation: unrotate 24s infinite linear;
+  animation: unrotate 24s infinite linear;
 }
 
 .skill-orbit:nth-child(4) .skill-planet:nth-child(2) {
-  -webkit-animation: travelOrbit 6s infinite -2s linear;
-  animation: travelOrbit 6s infinite -2s linear;
-  -webkit-transform-origin: 50% 363%;
-  transform-origin: 50% 363%;
-  transform: rotate(90deg);
+  animation-delay: -8s;
 }
 .skill-orbit:nth-child(4) span:nth-child(2) {
-  -webkit-animation: unrotate 6s infinite -2s linear;
-  animation: unrotate 6s infinite -2s linear;
+  animation-delay: -8s;
 }
 #css-logo {
   transform: rotate(-120deg);
 }
 
 .skill-orbit:nth-child(4) .skill-planet:nth-child(3) {
-  -webkit-animation: travelOrbit 6s infinite -4s linear;
-  animation: travelOrbit 6s infinite -4s linear;
-  -webkit-transform-origin: 50% 363%;
-  transform-origin: 50% 363%;
+  animation-delay: -16s;
 }
 .skill-orbit:nth-child(4) span:nth-child(3) {
-  -webkit-animation: unrotate 6s infinite -4s linear;
-  animation: unrotate 6s infinite -4s linear;
+  animation-delay: -16s;
 }
 #javascript-logo {
   transform: rotate(120deg);
 }
 
-.skill-orbit:nth-child(5) .skill-planet:nth-child(1) {
-  -webkit-animation: travelOrbit 2s infinite linear;
-  animation: travelOrbit 2s infinite linear;
+.skill-orbit:nth-child(5) .skill-planet {
+  -webkit-animation: travelOrbit 8s infinite linear;
+  animation: travelOrbit 8s infinite linear;
   -webkit-transform-origin: 50% 243%;
   transform-origin: 50% 243%;
 }
-.skill-orbit:nth-child(5) span:nth-child(1) {
-  -webkit-animation: unrotate 2s infinite linear;
-  animation: unrotate 2s infinite linear;
+.skill-orbit:nth-child(5) span {
+  -webkit-animation: unrotate 8s infinite linear;
+  animation: unrotate 8s infinite linear;
 }
 .skill-orbit:nth-child(5) .skill-planet:nth-child(2) {
-  -webkit-animation: travelOrbit 2s infinite -1s linear;
-
-  -webkit-transform-origin: 50% 243%;
-  transform-origin: 50% 243%;
-  animation: travelOrbit 2s infinite -1s linear;
+  animation-delay: -4s;
 }
 
 .skill-orbit:nth-child(5) span:nth-child(2) {
-  -webkit-animation: unrotate 2s infinite -1s linear;
-  animation: unrotate 2s infinite -1s linear;
+  animation-delay: -4s;
 }
 
 #cpp-logo {
@@ -1005,6 +991,11 @@ ABOUT
 /*
 PORTFOLIO
 */
+
+#work {
+  background-color: #c7e1ff;
+  padding-bottom: 100px;
+}
 
 .work-box {
   margin-bottom: 3rem;
@@ -1147,7 +1138,9 @@ footer .copyright {
 /*
 CONTACT 
 */
-
+#contact {
+  margin-top: 0;
+}
 #sendmessage {
   color: #0078ff;
   border: 1px solid #0078ff;
