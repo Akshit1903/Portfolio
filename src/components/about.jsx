@@ -262,9 +262,12 @@ class About extends React.Component {
                       </div>
                       {this.state.about_me.map((content) => {
                         return (
-                          <p className="lead" key={content.id}>
-                            {content.content}
-                          </p>
+                          <div>
+                            <p key={content.id}>
+                              {content.content}
+                              <hr className="lead" />
+                            </p>
+                          </div>
                         );
                       })}
                     </div>

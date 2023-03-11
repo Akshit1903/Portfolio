@@ -166,7 +166,12 @@ a:hover {
   font-size: 2rem;
   position: relative;
 }
-
+hr.lead {
+  height: 3px;
+  background-color: #0078ff;
+  width: 100px;
+  margin-left: 0;
+}
 .title-left:before {
   content: "";
   position: absolute;
@@ -785,79 +790,79 @@ INTRO
 }
 
 .skill-orbit:nth-child(1) .skill-planet {
-  -webkit-animation: travelOrbit 10s infinite linear;
-  animation: travelOrbit 10s infinite linear;
+  -webkit-animation: travelOrbit 40s infinite linear;
+  animation: travelOrbit 40s infinite linear;
   -webkit-transform-origin: 50% 713%;
   transform-origin: 50% 713%;
 }
 .skill-orbit:nth-child(1) span {
-  -webkit-animation: unrotate 10s infinite linear;
-  animation: unrotate 10s infinite linear;
+  -webkit-animation: unrotate 40s infinite linear;
+  animation: unrotate 40s infinite linear;
 }
 .skill-orbit:nth-child(1) .skill-planet:nth-child(2) {
-  animation-delay: -5s;
+  animation-delay: -20s;
 }
 .skill-orbit:nth-child(1) span:nth-child(2) {
-  animation-delay: -5s;
+  animation-delay: -20s;
 }
 #mysql-logo {
   transform: rotate(180deg);
 }
 
 .skill-orbit:nth-child(2) .skill-planet {
-  -webkit-animation: travelOrbit 9s infinite linear;
-  animation: travelOrbit 9s infinite linear;
+  -webkit-animation: travelOrbit 36s infinite linear;
+  animation: travelOrbit 36s infinite linear;
   -webkit-transform-origin: 50% 597%;
   transform-origin: 50% 597%;
 }
 .skill-orbit:nth-child(2) span {
-  -webkit-animation: unrotate 9s infinite linear;
-  animation: unrotate 9s infinite linear;
+  -webkit-animation: unrotate 36s infinite linear;
+  animation: unrotate 36s infinite linear;
 }
 .skill-orbit:nth-child(2) .skill-planet:nth-child(2) {
-  animation-delay: -3s;
+  animation-delay: -12s;
 }
 .skill-orbit:nth-child(2) span:nth-child(2) {
-  animation-delay: -3s;
+  animation-delay: -12s;
 }
 #figma-logo {
   transform: rotate(-120deg);
 }
 .skill-orbit:nth-child(2) .skill-planet:nth-child(3) {
-  animation-delay: -6s;
+  animation-delay: -24s;
 }
 .skill-orbit:nth-child(2) span:nth-child(3) {
-  animation-delay: -6s;
+  animation-delay: -24s;
 }
 #firebase-logo {
   transform: rotate(120deg);
 }
 
 .skill-orbit:nth-child(3) .skill-planet {
-  -webkit-animation: travelOrbit 6s infinite linear;
-  animation: travelOrbit 6s infinite linear;
+  -webkit-animation: travelOrbit 30s infinite linear;
+  animation: travelOrbit 30s infinite linear;
   -webkit-transform-origin: 50% 480%;
   transform-origin: 50% 480%;
 }
 .skill-orbit:nth-child(3) span {
-  -webkit-animation: unrotate 6s infinite linear;
-  animation: unrotate 6s infinite linear;
+  -webkit-animation: unrotate 30s infinite linear;
+  animation: unrotate 30s infinite linear;
 }
 
 .skill-orbit:nth-child(3) .skill-planet:nth-child(2) {
-  animation-delay: -2s;
+  animation-delay: -10s;
 }
 .skill-orbit:nth-child(3) span:nth-child(2) {
-  animation-delay: -2s;
+  animation-delay: -10s;
 }
 #dart-logo {
   transform: rotate(-120deg);
 }
 .skill-orbit:nth-child(3) .skill-planet:nth-child(3) {
-  animation-delay: -4s;
+  animation-delay: -20s;
 }
 .skill-orbit:nth-child(3) span:nth-child(3) {
-  animation-delay: -4s;
+  animation-delay: -20s;
 }
 #android-logo {
   transform: rotate(120deg);
