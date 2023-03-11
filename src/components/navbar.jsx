@@ -3,6 +3,9 @@ import $ from "jquery";
 
 import logo1 from "../img/logo1.png";
 import logo2 from "../img/logo2.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 class Navbar extends React.Component {
   constructor() {
@@ -142,7 +145,7 @@ class Navbar extends React.Component {
               className="btn btn-light resume-btn"
               role="button"
             >
-              DOWNLOAD RESUME
+              RESUME <FontAwesomeIcon icon={faDownload} />
             </a>
           </div>
         </div>
