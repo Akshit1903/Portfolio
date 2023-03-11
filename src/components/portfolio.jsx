@@ -1,7 +1,5 @@
 import React from "react";
 
-//import stock
-import stock from "../img/image1.jpg";
 import easymi_tutorial from "../img/easymi/tutorial2.gif";
 import easymi_home from "../img/easymi/home.jpg";
 import easymi_about from "../img/easymi/about.png";
@@ -31,7 +29,7 @@ class Portfolio extends React.Component {
           </div>
           <div className="row justify-content-center">
             <div className="col-md-4">
-              <div className="work-box">
+              <div className="work-box" data-aos="zoom-in-up">
                 <a href={easymi_tutorial} data-lightbox="gallery-easymi">
                   <div className="work-img">
                     <img
@@ -98,7 +96,7 @@ class Portfolio extends React.Component {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="work-box">
+              <div className="work-box" data-aos="zoom-in-up">
                 <a href={add_tag_demo} data-lightbox="gallery-taggy">
                   <div className="work-img">
                     <img src={add_tag_demo} alt="" className="img-fluid" />
@@ -169,18 +167,25 @@ class Portfolio extends React.Component {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="work-box">
+              <div className="work-box" data-aos="zoom-in-up">
                 <a href={compose} data-lightbox="gallery-daily">
                   <div className="work-img">
                     <img src={compose} alt="" className="img-fluid" />
                     <img src={navigation} alt="" className="img-fluid" />
                     <div className="project-desc">
-                      A simple journalling app to keep your daily adventures
-                      with a navigation menu.
-                      <br />
-                      <br />
-                      <br />
-                      <br />
+                      <ul>
+                        <li>
+                          A web-based application that allows users to keep
+                          track of their daily thoughts, feelings, and
+                          experiences.
+                        </li>
+                        <li>
+                          The app is designed to be user-friendly, with a clean
+                          and intuitive interface that makes it easy for users
+                          to create new journal entries and browse through their
+                          previous entries.
+                        </li>
+                      </ul>
                       <br />
                       <br />
                       <br />
@@ -233,7 +238,7 @@ class Portfolio extends React.Component {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="work-box">
+              <div className="work-box" data-aos="zoom-in-up">
                 <a href={places} data-lightbox="gallery-places">
                   <div className="work-img">
                     <img src={places} alt="" className="img-fluid" />
@@ -282,7 +287,7 @@ class Portfolio extends React.Component {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="work-box">
+              <div className="work-box" data-aos="zoom-in-up">
                 <a href={newsletter_proc} data-lightbox="gallery-newsletter">
                   <div className="work-img">
                     <img src={newsletter_proc} alt="" className="img-fluid" />
@@ -356,8 +361,8 @@ class Portfolio extends React.Component {
 export default Portfolio;
 
 // Stock Project
-{
-  /* <div className="col-md-4">
+// {
+/* <div className="col-md-4">
               <div className="work-box">
                 <a href={stock} data-lightbox="gallery-mf">
                   <div className="work-img">
@@ -418,4 +423,4 @@ export default Portfolio;
                 </a>
               </div>
             </div> */
-}
+// }

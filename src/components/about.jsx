@@ -1,5 +1,6 @@
 import React from "react";
-import myImage from "../img/myImage.png";
+import leetcode_icon from "../img/leetcode_icon.png";
+import gfg_icon from "../img/gfg_icon.png";
 
 class About extends React.Component {
   constructor() {
@@ -111,7 +112,7 @@ class About extends React.Component {
                             <div className="skill-planet">
                               <span>
                                 <img
-                                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+                                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg"
                                   alt="bootstrap"
                                   width="30"
                                   height="30"
@@ -247,7 +248,6 @@ class About extends React.Component {
                       </div>
                     </div>
                     <br />
-                    <spacer />
                     <a href="https://leetcode.com/akshit19/">
                       <img
                         id="leetcode-stats"
@@ -255,7 +255,42 @@ class About extends React.Component {
                         alt="Akshit's Leetcode Profile"
                       />
                     </a>
-                    <spacer />
+                    <div className="socials mx-5 text-center">
+                      <ul>
+                        <li>
+                          <a
+                            href="https://leetcode.com/akshit19/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <span className="ico-circle">
+                              <img
+                                src={leetcode_icon}
+                                alt="leetcode icon"
+                                height="25"
+                                width="25"
+                              />
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://auth.geeksforgeeks.org/user/akshitlalit/practice/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <span className="ico-circle">
+                              <img
+                                src={gfg_icon}
+                                alt="gfg icon"
+                                height="25"
+                                width="25"
+                              />
+                            </span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                   <div className="col-md-6">
                     <div className="about-me pt-4 pt-md-0">

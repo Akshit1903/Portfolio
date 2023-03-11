@@ -4,7 +4,6 @@ import $ from "jquery";
 import logo1 from "../img/logo1.png";
 import logo2 from "../img/logo2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 class Navbar extends React.Component {
@@ -142,6 +141,7 @@ class Navbar extends React.Component {
             <a
               href="https://bit.ly/resume-akshit"
               target="_blank"
+              rel="noreferrer"
               className="btn btn-light resume-btn"
               role="button"
             >

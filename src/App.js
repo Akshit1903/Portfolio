@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 //import css in order
+import "aos/dist/aos.css";
 import "normalize.css";
 import "./animate.css";
 import "bootstrap/dist/css/bootstrap.css";
@@ -25,8 +26,15 @@ import About from "./components/about.jsx";
 import Portfolio from "./components/portfolio.jsx";
 import Contact from "./components/contact.jsx";
 import BackToTop from "./components/back-top.jsx";
+import AOS from "aos";
 
 export default function App() {
+  // componentDidMount() {
+  //   AOS.init();
+  // }
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <React.Fragment>
       <Navbar />

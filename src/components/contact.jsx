@@ -10,7 +10,7 @@ class Contact extends React.Component {
         style={{ backgroundImage: "url(" + imageOverlay + ")" }}
       >
         <div className="overlay-mf"></div>
-        <div className="container">
+        <div className="container" data-aos="zoom-in-up">
           <div className="row">
             <div className="col-sm-12">
               <div className="contact-mf">
@@ -118,17 +118,6 @@ class Contact extends React.Component {
                       </div>
                       <div className="socials">
                         <ul>
-                          {/* <li>
-                            <a
-                              href=""
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <span className="ico-circle">
-                                <i className="ion-social-codepen"></i>
-                              </span>
-                            </a>
-                          </li> */}
                           <li>
                             <a
                               href="https://github.com/"
