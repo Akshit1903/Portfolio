@@ -8,7 +8,7 @@ class Intro extends React.Component {
     const curHour = new Date().getHours();
     if (curHour < 12) {
       this.greeting = "morning!";
-    } else if (curHour < 5) {
+    } else if (curHour < 17) {
       this.greeting = "afternoon!";
     } else {
       this.greeting = "evening!";
