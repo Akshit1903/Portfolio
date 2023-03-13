@@ -139,7 +139,7 @@ class Navbar extends React.Component {
               </li>
             </ul>
             <a
-              href="https://drive.google.com/file/d/1_LQkl8PBeSX4M60h0sDUXIotekEC-vYj/view?usp=share_link"
+              href="https://drive.google.com/file/d/1zwqNS5lIzN3zmrSZrh07OvG3swDbddUR/view?usp=share_link"
               target="_blank"
               rel="noreferrer"
               className="btn btn-light resume-btn"
