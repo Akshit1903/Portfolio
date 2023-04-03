@@ -962,8 +962,11 @@ ABOUT
 .skill-mf {
   display: flex;
   justify-content: center;
+  overflow: auto;
 }
-
+/* .skills-circle-wrap {
+  width: 100% !important;
+} */
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
