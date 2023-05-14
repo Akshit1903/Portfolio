@@ -104,18 +104,19 @@ export default function SolarSystem() {
             <div className="skill-planet">
               <span>
                 <img
-                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                  src="https://img.icons8.com/?size=512&id=20909&format=png"
                   alt="html5"
                   width="30"
                   height="30"
                 />
               </span>
             </div>
+
             <div className="skill-planet ">
               <span>
                 <img
                   id="css-logo"
-                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                  src="https://img.icons8.com/?size=512&id=21278&format=png"
                   alt="css3"
                   width="30"
                   height="30"
@@ -126,7 +127,7 @@ export default function SolarSystem() {
               <span>
                 <img
                   id="javascript-logo"
-                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                  src="https://img.icons8.com/?size=512&id=108784&format=png"
                   alt="javascript"
                   width="30"
                   height="30"
@@ -139,7 +140,7 @@ export default function SolarSystem() {
             <div className="skill-planet">
               <span>
                 <img
-                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
+                  src="https://img.icons8.com/?size=512&id=40670&format=png"
                   alt="c"
                   width="30"
                   height="30"
