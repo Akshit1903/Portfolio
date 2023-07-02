@@ -16,14 +16,17 @@ class About extends React.Component {
               <strong>Languages:</strong>
               <p>C/C++, Dart, HTML, CSS, JavaScript</p>
               <strong>Technologies/Frameworks/Libraries:</strong>
-              <p>
-                Data Structures and Algorithms, Flutter, React, Firebase, Git,
-                Figma
-              </p>
-              <strong>Database:</strong>
-              <p>MySQL, MongoDB, FireStore</p>
+
+              <strong>Frontend Stack</strong>
+              <p>Flutter, React</p>
+              <strong>Backend Stack</strong>
+              <p>Firebase, Node.js</p>
+              <strong>Database</strong>
+              <p>MySQL, Realtime/Firestore </p>
+              <strong>Miscellaneous</strong>
+              <p>Git/Github, Figma</p>
               <strong>Exploration</strong>
-              <p>Node.js, Next.js, Competitive Programming</p>
+              <p>MongoDB, Next.js, Competitive Programming</p>
             </div>
           ),
         },

@@ -13,14 +13,26 @@ class Navbar extends React.Component {
       logo: logo1,
     };
   }
+  toggleLogo() {
+    if (this.state.logo == logo1) {
+      this.setState({ logo: logo2 });
+      document.querySelector(".resume-btn").classList.remove("btn-light");
+      document.querySelector(".resume-btn").classList.add("btn-primary");
+    } else {
+      document.querySelector(".resume-btn").classList.add("btn-light");
+      document.querySelector(".resume-btn").classList.remove("btn-primary");
+      this.setState({ logo: logo1 });
+    }
+  }
 
   componentDidMount() {
     const nav = $("nav");
     let navHeight = nav.outerHeight();
-
-    $(".navbar-toggler").on("click", function () {
-      if (!$("#mainNav").hasClass("navbar-reduce")) {
-        $("#mainNav").addClass("navbar-reduce");
+    const mainNav = $("#mainNav");
+    $(".navbar-toggler").on("click", () => {
+      this.toggleLogo();
+      if (!mainNav.hasClass("navbar-reduce")) {
+        mainNav.addClass("navbar-reduce");
       }
     });
 
@@ -96,7 +108,7 @@ class Navbar extends React.Component {
             <img
               src={this.state.logo}
               alt="logo"
-              style={{ maxWidth: "100px" }}
+              style={{ maxWidth: "180px" }}
             />
           </a>
           <button
@@ -141,7 +153,6 @@ class Navbar extends React.Component {
             <a
               href="https://drive.google.com/file/d/1c8as0CMRe1R1ZhUk9o2KFG1Q2ksKwzjB/view?usp=share_link"
               target="_blank"
-              rel="noreferrer"
               className="btn btn-light resume-btn"
               role="button"
             >

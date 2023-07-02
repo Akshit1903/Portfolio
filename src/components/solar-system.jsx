@@ -6,10 +6,46 @@ export default function SolarSystem() {
       <div className="skills-circle-wrap">
         <div className="skills-circle">
           {/* 5th Orbit */}
+
           <div className="skill-orbit">
+            {/* children */}
             <div className="skill-planet">
               <span>
                 <img
+                  id="express"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
+                  alt="express"
+                  width="30"
+                  height="30"
+                />
+              </span>
+            </div>
+            <div className="skill-planet">
+              <span>
+                <img
+                  id="nodejs"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg"
+                  alt="nodejs"
+                  width="30"
+                  height="30"
+                />
+              </span>
+            </div>
+            <div className="skill-planet">
+              <span>
+                <img
+                  id="react"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                  alt="react"
+                  width="30"
+                  height="30"
+                />
+              </span>
+            </div>
+            <div className="skill-planet">
+              <span>
+                <img
+                  id="mongodb"
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
                   alt="mongodb"
                   width="30"
