@@ -72,7 +72,7 @@ const Experience = () => {
                   <li>
                     Development of a{" "}
                     <strong>payment gateway application</strong> using{" "}
-                    <strong>React.js</strong>
+                    <strong>React.js </strong>
                     to cater to the needs of{" "}
                     <strong>
                       partially and fully visually impaired users.
