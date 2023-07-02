@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.78adf2f1.css",
-    "main.js": "/Portfolio/static/js/main.d44f3765.js",
-    "static/media/tutorial2.gif": "/Portfolio/static/media/tutorial2.95c6238fc807a1cbab01.gif",
+    "main.css": "/Portfolio/static/css/main.1c418a89.css",
+    "main.js": "/Portfolio/static/js/main.30c6e40f.js",
     "static/media/places.gif": "/Portfolio/static/media/places.b04bebf25bce5b1075e8.gif",
+    "static/media/1.gif": "/Portfolio/static/media/1.c63c5bcfc92b7e87cc84.gif",
     "static/media/add_tag_demo.gif": "/Portfolio/static/media/add_tag_demo.2e9bb09a7372f87be1a9.gif",
     "static/media/earth.jpg": "/Portfolio/static/media/earth.a08c82a61f5bf923991e.jpg",
-    "static/media/about.png": "/Portfolio/static/media/about.8979e00f809f27898333.png",
+    "static/media/mm1.gif": "/Portfolio/static/media/mm1.c7a8e88a90ae78635f5e.gif",
+    "static/media/2.jpg": "/Portfolio/static/media/2.1bb8eda09987e7ae51ee.jpg",
+    "static/media/5.jpg": "/Portfolio/static/media/5.c8f97a983e16717ec5be.jpg",
+    "static/media/mm2.gif": "/Portfolio/static/media/mm2.86f7a3382ed0113b333a.gif",
     "static/media/search_tags.gif": "/Portfolio/static/media/search_tags.990d3ada5859ee74ec4c.gif",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/Portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/ionicons.svg?v=2.0.0": "/Portfolio/static/media/ionicons.b45d332f6829d6813600.svg",
+    "static/media/4.jpg": "/Portfolio/static/media/4.5e6f4fd130ba9fc818e3.jpg",
+    "static/media/3.jpg": "/Portfolio/static/media/3.d569cc74c8e5618a81d2.jpg",
+    "static/media/1.jpg": "/Portfolio/static/media/1.5e257ea57620ec31bcca.jpg",
     "static/media/working.png": "/Portfolio/static/media/working.9c3438a145781437f04c.png",
-    "static/media/use_cases.png": "/Portfolio/static/media/use_cases.36ffb79fec24af561ae1.png",
+    "static/media/6.jpg": "/Portfolio/static/media/6.96d842bd6c7fb6b3fff5.jpg",
     "static/media/ionicons.ttf?v=2.0.0": "/Portfolio/static/media/ionicons.1fa6a1e8581aaedf7344.ttf",
     "static/media/fontawesome-webfont.eot": "/Portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/Portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/home.jpg": "/Portfolio/static/media/home.e877bb241e2fa89148f7.jpg",
     "static/media/ionicons.eot?v=2.0.0": "/Portfolio/static/media/ionicons.68e3a4f9a8d8c679b4ae.eot",
     "static/media/mailchimp.png": "/Portfolio/static/media/mailchimp.f0446ae536fd536323ae.png",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/Portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
@@ -25,14 +30,16 @@
     "static/media/newsletter_proc.gif": "/Portfolio/static/media/newsletter_proc.cb2bf2019a74bf88ea55.gif",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/ionicons.woff?v=2.0.0": "/Portfolio/static/media/ionicons.0b4ad6170d93c4aa91ee.woff",
+    "static/media/1.png": "/Portfolio/static/media/1.747cd24f4a421d0e89da.png",
     "static/media/keeper_demo2.gif": "/Portfolio/static/media/keeper_demo2.dfd569a1a1557321f7cc.gif",
     "static/media/logo2.png": "/Portfolio/static/media/logo2.e8ffdfb8b1f90259268f.png",
+    "static/media/2.png": "/Portfolio/static/media/2.b2cdaa5fceb542cf724d.png",
     "index.html": "/Portfolio/index.html",
-    "main.78adf2f1.css.map": "/Portfolio/static/css/main.78adf2f1.css.map",
-    "main.d44f3765.js.map": "/Portfolio/static/js/main.d44f3765.js.map"
+    "main.1c418a89.css.map": "/Portfolio/static/css/main.1c418a89.css.map",
+    "main.30c6e40f.js.map": "/Portfolio/static/js/main.30c6e40f.js.map"
   },
   "entrypoints": [
-    "static/css/main.78adf2f1.css",
-    "static/js/main.d44f3765.js"
+    "static/css/main.1c418a89.css",
+    "static/js/main.30c6e40f.js"
   ]
 }
