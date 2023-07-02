@@ -281,7 +281,7 @@ hr.lead {
   border: 0px solid #cde1f8;
   display: block;
   transition: all 0.6s ease-in-out;
-  cursor: none;
+  /* cursor: none; */
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
@@ -315,7 +315,7 @@ hr.lead {
   left: auto;
   right: 30px;
   bottom: 50px;
-  cursor: none;
+  /* cursor: none; */
   border-radius: 50%;
 }
 
@@ -682,7 +682,7 @@ INTRO
   position: relative;
   margin: 10px 0;
   pointer-events: fill;
-  cursor: none;
+  /* cursor: none; */
   -webkit-transform: perspective(900px);
   transform: perspective(900px);
 }
@@ -1225,7 +1225,7 @@ BUTTON
   border-radius: 0.3rem;
   border: 1px solid transparent;
   transition: all 500ms ease;
-  cursor: none;
+  /* cursor: none; */
 }
 
 .button:focus {
@@ -1394,7 +1394,7 @@ BUTTON
 }
 
 .hover {
-  cursor: none;
+  /* cursor: none; */
   background-color: red;
   opacity: 0.5;
 }
@@ -1405,8 +1405,8 @@ BUTTON
   opacity: 0.5;
 }
 * {
-  cursor: none;
+  /* cursor: none; */
 }
 .btn {
-  cursor: none;
+  /* cursor: none; */
 }

@@ -74,15 +74,15 @@ export default function App() {
     </React.Fragment>
   );
 }
-setInterval(() => {
-  document.querySelectorAll(".project-box,a,button").forEach((item) => {
-    item.addEventListener("mouseover", () => {
-      cursor.classList.add("hover");
-    });
-    item.addEventListener("mouseleave", () => {
-      cursor.classList.remove("hover");
-    });
-  });
-}, 1000);
+// setInterval(() => {
+//   document.querySelectorAll(".project-box,a,button").forEach((item) => {
+//     item.addEventListener("mouseover", () => {
+//       cursor.classList.add("hover");
+//     });
+//     item.addEventListener("mouseleave", () => {
+//       cursor.classList.remove("hover");
+//     });
+//   });
+// }, 1000);
 
 serviceWorker.register();
