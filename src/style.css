@@ -1360,6 +1360,9 @@ BUTTON
 #education {
   z-index: 0;
 }
+.box-shadow-full {
+  z-index: 0;
+}
 .cursor {
   background-color: white;
   opacity: 0.1;
