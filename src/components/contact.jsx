@@ -2,7 +2,23 @@ import React from "react";
 import imageOverlay from "../img/earth.jpg";
 
 class Contact extends React.Component {
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+
   render() {
+    const form = document.querySelector(".needs-validation");
+    // form.addEventListener(
+    //   "submit",
+    //   (event) => {
+    //     if (!form.checkValidity()) {
+    //       event.preventDefault();
+    //       event.stopPropagation();
+    //     }
+
+    //     form.classList.add("was-validated");
+    //   },
+    //   false
+    // );
+    // TODO:- Handle form validation with bootstrap
     return (
       <section
         id="contact"
@@ -24,7 +40,7 @@ class Contact extends React.Component {
                         <form
                           action="https://formspree.io/f/meqwzevq"
                           method="POST"
-                          className="contactForm"
+                          className="needs-validation contactForm"
                         >
                           <div id="sendmessage">
                             Your message has been sent. Thank you!
@@ -41,6 +57,7 @@ class Contact extends React.Component {
                                   placeholder="Your Name"
                                   data-rule="minlen:4"
                                   data-msg="Please enter at least 4 chars"
+                                  required
                                 />
                                 <div className="validation"></div>
                               </div>
@@ -55,6 +72,7 @@ class Contact extends React.Component {
                                   placeholder="Your Email"
                                   data-rule="email"
                                   data-msg="Please enter a valid email"
+                                  required
                                 />
                                 <div className="validation"></div>
                               </div>
@@ -69,6 +87,7 @@ class Contact extends React.Component {
                                   placeholder="Subject"
                                   data-rule="minlen:4"
                                   data-msg="Please enter at least 8 chars of subject"
+                                  required
                                 />
                                 <div className="validation"></div>
                               </div>
@@ -82,6 +101,7 @@ class Contact extends React.Component {
                                   data-rule="required"
                                   data-msg="Please write something for us"
                                   placeholder="Message"
+                                  required
                                 ></textarea>
                                 <div className="validation"></div>
                               </div>
@@ -104,11 +124,9 @@ class Contact extends React.Component {
                       </div>
                       <div className="more-info">
                         <p className="lead">
-                          Whether you want to get in touch, talk about a project
-                          collaboration, or just say hi, I'd love to hear from
-                          you.
+                          Hey fellow developer, thanks for visiting my profile.
                           <br />
-                          Let us chat, I'd pay for the coffee!
+                          Feel free to connect with me.
                         </p>
                         {/* <!-- <ul class="list-ico">
                                 <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>

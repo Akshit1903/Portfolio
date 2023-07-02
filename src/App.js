@@ -27,11 +27,11 @@ import Portfolio from "./components/portfolio.jsx";
 import Contact from "./components/contact.jsx";
 import BackToTop from "./components/back-top.jsx";
 import AOS from "aos";
-import Experience from "./components/experience";
+import Experience from "./components/tailwind-components/experience";
+import Education from "./components/tailwind-components/education";
 
 var cursor = document.querySelector(".cursor");
 var cursorinner = document.querySelector(".cursor2");
-var a = document.querySelectorAll("a");
 
 document.addEventListener("mousemove", function (e) {
   var x = e.clientX;
@@ -56,14 +56,6 @@ document.addEventListener("mouseup", function () {
   cursorinner.classList.remove("cursorinnerhover");
 });
 
-a.forEach((item) => {
-  item.addEventListener("mouseover", () => {
-    cursor.classList.add("hover");
-  });
-  item.addEventListener("mouseleave", () => {
-    cursor.classList.remove("hover");
-  });
-});
 export default function App() {
   useEffect(() => {
     AOS.init();
@@ -73,7 +65,8 @@ export default function App() {
       <Navbar />
       <Intro />
       <About />
-      {/* <Experience /> */}
+      <Experience />
+      <Education />
       <Portfolio />
       <Contact />
       <BackToTop />
@@ -81,5 +74,15 @@ export default function App() {
     </React.Fragment>
   );
 }
+setInterval(() => {
+  document.querySelectorAll(".project-box,a,button").forEach((item) => {
+    item.addEventListener("mouseover", () => {
+      cursor.classList.add("hover");
+    });
+    item.addEventListener("mouseleave", () => {
+      cursor.classList.remove("hover");
+    });
+  });
+}, 1000);
 
 serviceWorker.register();

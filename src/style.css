@@ -1024,11 +1024,10 @@ PORTFOLIO
 }
 
 .work-box {
-  margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
 }
 
 .work-box:hover img {
@@ -1046,6 +1045,7 @@ PORTFOLIO
 }
 
 .work-box .project-desc {
+  height: 100%;
   position: absolute;
   padding: 2.5rem;
   color: transparent;
@@ -1064,6 +1064,9 @@ PORTFOLIO
 
 .work-content {
   padding: 2rem 3% 1rem 4%;
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 3rem;
 }
 
 .work-content .w-more {
@@ -1159,6 +1162,10 @@ footer {
 
 footer .copyright {
   margin-bottom: 0.3rem;
+}
+#experience {
+  background-color: #c7e1ff;
+  padding-bottom: 2%;
 }
 
 /*
@@ -1390,5 +1397,8 @@ BUTTON
   opacity: 0.5;
 }
 * {
+  cursor: none;
+}
+.btn {
   cursor: none;
 }
