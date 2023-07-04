@@ -119,6 +119,19 @@ class Portfolio extends React.Component {
     );
   }
 
+  // <this.Project
+  //             first={}
+  //             previews={[]}
+  //             lightboxName=""
+  //             desciption=
+  //             detailPics={[]}
+  //             title=""
+  //             techStack=""
+  //             youtubeLink=""
+  //             githubLink=""
+  //             deployedLink=""
+  //           />
+
   render() {
     return (
       <section id="work" className="portfolio-mf sect-pt4 route">

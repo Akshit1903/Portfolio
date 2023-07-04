@@ -151,7 +151,7 @@ class Navbar extends React.Component {
               </li>
             </ul>
             <a
-              href="https://drive.google.com/file/d/1c8as0CMRe1R1ZhUk9o2KFG1Q2ksKwzjB/view?usp=share_link"
+              href="https://github.com/Akshit1903/Akshit1903/raw/main/resume_akshit.pdf"
               target="_blank"
               className="btn btn-light resume-btn"
               role="button"

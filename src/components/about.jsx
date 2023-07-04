@@ -15,8 +15,6 @@ class About extends React.Component {
               <h4>Skills:</h4>
               <strong>Languages:</strong>
               <p>C/C++, Dart, HTML, CSS, JavaScript</p>
-              <strong>Technologies/Frameworks/Libraries:</strong>
-
               <strong>Frontend Stack</strong>
               <p>Flutter, React</p>
               <strong>Backend Stack</strong>
