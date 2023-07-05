@@ -103,10 +103,15 @@ const Experience = () => {
                   <li>
                     Increased{" "}
                     <strong>
-                      messaging efficiency by 300% (~1.5s to ~0.5s)
+                      messaging efficiency by 53% ( 962ms to 447ms)
                     </strong>{" "}
                     by reducing the number of reads and writes concerning the
                     Firestore database by caching and limiting queries.
+                  </li>
+                  <li>
+                    Optimised average frame render time by{" "}
+                    <strong>18% ( 27ms to 22ms)</strong> by reusing stateful
+                    widgets.
                   </li>
                   <li>
                     Integrated <strong>Agora API</strong> with the app to
